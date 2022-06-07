@@ -1,0 +1,128 @@
+#nav1{
+  background: #171717;
+  height: 7em;
+  margin :-2em;
+  padding-top:1.2em;
+  /* padding-bottom:0.2em; */
+
+}
+#title{
+  font-family: 'Smooch', cursive;
+  color: #1ACE95;
+  text-align: center;
+  padding-top: 20px;
+  font-size: 40px;
+}
+.jambo{
+  background: black;
+  margin: 2em -2em -2em -2em;
+  padding-bottom: 10px;
+  
+}
+#aboutText{
+  font-family: 'Montserrat', sans-serif;
+  color: #707070;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  margin-bottom: 0px;
+  font-size: small;
+  
+  
+
+}
+#searchBar{
+  color: #707070;
+  display: flex;
+  justify-content: center;
+  width:200px;
+  margin : 20px auto;
+  margin-top: 0px;
+  
+
+
+}
+.itemD{
+  width :300px;
+  height :100px;
+  background-color:#171717;
+  color: #1ACE95;
+  display: flex;
+  /* padding: 20px; */
+  border-radius: 20px;
+  /* margin-top : 2em; */
+  margin-top:50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.shoeIMg{
+  width:100px;
+}
+.shoeImg1{
+  width: 100%; /* or any custom size */
+  height: 100%; 
+  object-fit: contain;
+  padding: 10px;
+}
+.nonee{
+  margin-top:50px;
+  text-align: center;
+}
+.contents{
+  
+  padding :10px;
+  margin-top: 2px;
+}
+.itemName{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: xx-large;
+  margin-top: 5px;
+}
+.features{
+  display: flex;
+  margin-top: 11px; 
+}
+.itemMFD{
+  margin-left: 30px;
+  background-color: #1ACE95;
+  color: #171717;
+  border-radius: 10px;
+  padding-right:5px;
+  padding-left:5px;
+  font-size:xx-small
+}
+.iremPice{
+  background-color: #1ACE95;
+  color: #171717;
+  border-radius: 10px;
+  padding-right:5px;
+  padding-left:5px;
+  font-size:xx-small
+}
+.itemId{
+  margin-left: 30px;
+  background-color: #1ACE95;
+  color: #171717;
+  border-radius: 10px;
+  padding-right:5px;
+  padding-left:5px;
+  font-size:xx-small
+}
+.priceID{
+  display: flex;
+  margin-top: 3px;
+
+}
+.itemColor{
+  background-color: #1ACE95;
+  color: #171717;
+  border-radius: 10px;
+  padding-right:5px;
+  padding-left:5px;
+  font-size:xx-small
+}
+.placeHolder{
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+}

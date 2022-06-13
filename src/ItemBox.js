@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 // import { products } from './mock/products';
 import axios from 'axios'
-import faker from 'faker'
+// import faker from 'faker'
 // import Image from '.images/sample.jpg';
 
 
@@ -76,26 +76,26 @@ console.log(fetchProducts)
     <div class = "itemD">
         
         <a href='/' className='shoeImg'>
-                   <img className='shoeImg1' alt="shoeimg" src={faker.image.image()} />
+                   <img className='shoeImg1' alt="shoeimg" src={fetchProducts.image_url} />
         </a>
         
         <div className='contents'>
         
         <div className='itemName'>
-        {fetchProducts.name}
+        {fetchProducts.readable_name}
         </div>
         <div className='features'>
             <div className='itemColor'>
             {fetchProducts.color}
             </div>
             <div className='itemMFD'>
-            {fetchProducts.manDate}
+            {fetchProducts.item_size}
             </div>
             
         </div>
         <div className='priceID'>
             <div className='iremPice'>
-            {fetchProducts.price}
+            {fetchProducts.item_desc}
             </div>
             <div className='itemId'>
             #{fetchProducts.productId}

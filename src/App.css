@@ -1,3 +1,37 @@
+body {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.search-bar {
+  display: flex;
+  padding-right: 10px;
+  gap: 10px;
+  align-items: center;
+  border-radius: 3px;
+  width: fit-content;
+  height: fit-content;
+  margin: auto;
+  overflow: hidden;
+  background-color: white;
+}
+
+.search-bar img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  background-color: #171717;
+  padding: 10px;
+  color: white;
+  width:200px;
+  padding: 10px;
+}
+
 #nav1{
   background: #171717;
   height: 7em;
@@ -14,14 +48,14 @@
   font-size: 40px;
 }
 .jambo{
-  background: black;
+  background: #323A41;
   margin: 2em -2em -2em -2em;
   padding-bottom: 10px;
   
 }
 #aboutText{
   font-family: 'Montserrat', sans-serif;
-  color: #707070;
+  color: #d7d7d7;
   text-align: center;
   padding: 20px;
   margin: 10px;
@@ -31,17 +65,7 @@
   
 
 }
-#searchBar{
-  color: #707070;
-  display: flex;
-  justify-content: center;
-  width:200px;
-  margin : 20px auto;
-  margin-top: 0px;
-  
 
-
-}
 .itemD{
   width :300px;
   height :100px;
@@ -125,4 +149,68 @@
   margin-top: 35px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+
+
+.item-box {
+  display: grid;
+  grid-template-columns: 100px auto;
+  grid-gap: 10px;
+  /* background-color: #171717; */
+  /* color: white; */
+  width: 100%;
+  max-width: 400px;
+  margin: 35px auto;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 5px 0px rgba(237,237,237,1);
+}
+
+.item-box img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.item-box .content {
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.item-box h2 {
+  margin-bottom: 2px;
+}
+
+.item-box .desc {
+  color: #a6a6a6;
+}
+
+.item-box .content .tags {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+.item-box .content .tags .tag {
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px solid lightgrey;
+  box-sizing: border-box;
+  overflow: hidden;
+  background-color: black;
+}
+
+.item-box .content .tags .tag small:first-child {
+  color: white;
+  padding: 0 10px;
+}
+.item-box .content .tags .tag small:nth-child(2) {
+  background-color: white;
+  padding: 0 10px;
 }

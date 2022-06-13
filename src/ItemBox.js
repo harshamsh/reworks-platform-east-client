@@ -19,7 +19,7 @@ const ItemBox = (props) => {
     if (searchVal) {
       try {
         const response = await axios.get(
-          "http://localhost:5000/products/" + searchVal
+          "https://obscure-savannah-00929.herokuapp.com/products/" + searchVal
         );
         console.log(response.data);
         setFetchProducts(response.data);
